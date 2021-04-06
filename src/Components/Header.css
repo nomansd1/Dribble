@@ -1,0 +1,130 @@
+.header {
+    background-color: #fff;
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+
+.logo {
+    margin-left: 30px;
+}
+
+.nav__container {
+ margin-left: 40px;
+ padding: 30px;
+}
+
+.nav__link{
+    padding: 0 20px;
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.nav__link:hover {
+    color:  #ea4c89;
+}
+
+.nav__right {
+    margin-left: auto;
+    margin-right: 30px;
+    padding: 30px;
+}
+
+.nav__right span {
+    padding: 0 15px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn__danger {
+    background-color: #ea4c89;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.click__menu {
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 20px;
+    display: none;
+}
+
+.main__menu .close__menu {
+    font-size: 2rem;
+    display: none;
+    cursor: pointer;
+}
+
+.main__menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width:800px) {
+    .main__menu {
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 100;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: none;
+        transition: top 2s ease;
+        background-color: whitesmoke;
+        padding: 20px;
+    }
+    
+    .main__menu , .close__menu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        color: #000;
+        z-index: 100;
+    }
+    
+    .click__menu {
+        display: block;
+    }
+    
+    
+    .nav__right {
+        margin-right: 5px;
+
+    }
+ 
+    
+.nav__right span {
+    padding: 0 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn__danger {
+    background-color: #ea4c89;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.logo {
+    margin-left: 5px;
+    width: 70px;
+    height: 90px;
+}
+
+
+}

@@ -1,0 +1,127 @@
+.section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.user__details {
+    margin: 0px auto;
+    margin-top: 75px;
+    margin-bottom: 30px;
+    width: 780px;
+    display: flex;
+}
+
+.avatar {
+    height: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.avatar__title {
+    margin-left: 15px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.avatar__desc {
+    margin-left: 15px;
+    color: #000;
+    font-size: 14px;
+}
+
+.sec__right {
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 7px;
+}
+
+.sec__right > button {
+    padding: 10px 16px;
+    background-color: whitesmoke;
+    color: #000;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    margin: 0 7px;
+
+}
+
+.food__container {
+    margin: 0 auto;
+    width: 780px;
+}
+
+.food__image {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.food__container > p {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.testimonial {
+    width: 100%;
+}
+
+.test__container {
+    width: 780px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.testi__avatar {
+    height: 60px;
+    width: 60px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.testi__title {
+    color: #000;
+    font-weight: 600;
+}
+
+.testi__desc {
+    font-weight: 500;
+}
+
+.hire__button {
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #ea4c89;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+}
+
+.work__sec {
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.work__sec > div > h3 {
+    margin-left: 80px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 22px;
+}
+
+.work__container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.work__img {
+    height: 200px;
+    width: 300px;
+    padding: 0 10px;
+}
